@@ -1,0 +1,3 @@
+Configuration files
+
+run.sh creates symlink to home directory, overwriting existing files.
