@@ -1,6 +1,11 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/rob/.oh-my-zsh
 
+# Load functions
+if [ -f .zsh_functions ]; then
+    source .zsh_functions
+fi
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -82,3 +87,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias la='ls -ltrA'

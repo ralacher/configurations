@@ -1,0 +1,4 @@
+# Functions
+
+# List directory and search for argument
+lss() { ls -A | grep --color=never $1 }
