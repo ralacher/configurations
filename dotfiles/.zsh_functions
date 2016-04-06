@@ -1,4 +1,4 @@
 # Functions
 
 # List directory and search for argument
-lss() { ls -A | grep --color=never $1 }
+lss() { ls -A | grep --ignore-case --color=never $1 }
