@@ -1,6 +1,9 @@
 " Syntax highlighting
 syntax on
 
+" Theme
+color luna-term
+
 " Indentation
 filetype indent plugin on
 
