@@ -87,8 +87,8 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias la='ls -ltrA'
-alias ll='ls -ltr'
-alias l='ls -CF'
+alias la='clear; ls -ltrA'
+alias ll='clear; ls -ltr'
+alias l='clear; ls -CF'
 alias vi=vim
 export EDITOR=vim
