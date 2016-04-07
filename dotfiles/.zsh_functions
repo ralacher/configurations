@@ -1,4 +1,11 @@
 # Functions
 
 # List directory and search for argument
-lss() { ls -A | grep --ignore-case --color=never $1 }
+lss() 
+{ 
+    if [ -z "$2" ]; then
+        ls -A | grep --ignore-case --color=never $1
+    else
+        ls -A $1 | grep --ignore-case --color=never $2
+    fi
+}
