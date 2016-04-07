@@ -1,0 +1,7 @@
+# Command aliases
+alias ll='clear; ls -ltr'
+alias la='clear; ls -ltrA'
+alias l='clear; ls -CF'
+
+# Program aliases
+alias vi=vim

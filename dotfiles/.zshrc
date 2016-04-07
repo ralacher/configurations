@@ -6,6 +6,11 @@ if [ -f .zsh_functions ]; then
     source .zsh_functions
 fi
 
+# Load alises
+if [ -f .aliases ]; then
+    source .aliases
+fi
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -58,7 +63,7 @@ plugins=(git docker pip pylint python)
 
 # User configuration
 
-  export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/rob/.local/bin:/home/rob/bin:/bin"
+export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/rob/.local/bin:/home/rob/bin:/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -87,8 +92,4 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias la='clear; ls -ltrA'
-alias ll='clear; ls -ltr'
-alias l='clear; ls -CF'
-alias vi=vim
 export EDITOR=vim
