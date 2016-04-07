@@ -1,8 +1,15 @@
 " Syntax highlighting
 syntax on
 
+" Enable 256 colors
+set t_Co=256
+
 " Theme
-color luna-term
+colorscheme luna-term
+
+" I don't know what this does but it uses my terminal's background color
+highlight Normal ctermbg=NONE
+highlight nonText ctermbg=NONE
 
 " Indentation
 filetype indent plugin on

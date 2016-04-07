@@ -1,15 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/rob/.oh-my-zsh
-
-# Load functions
-if [ -f .zsh_functions ]; then
-    source .zsh_functions
-fi
-
-# Load alises
-if [ -f .aliases ]; then
-    source .aliases
-fi
+export ZSH=/home/rob/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -93,3 +83,13 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export EDITOR=vim
+
+# Load functions
+if [ -f .zsh_functions ]; then
+    source .zsh_functions
+fi
+
+# Load alises
+if [ -f .aliases ]; then
+    source ~/.aliases
+fi
