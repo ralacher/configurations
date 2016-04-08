@@ -34,3 +34,4 @@ set wildmenu
 set foldmethod=indent
 "     Set foldlevel higher (99) to have folds opened by default
 set foldlevel=0
+

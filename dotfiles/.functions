@@ -9,3 +9,9 @@ lss()
         ls -A $1 | grep --ignore-case --color=never $2
     fi
 }
+
+# Alias to open vim with file explorer opened in vertical split
+_vim()
+{
+    vi $1 -c "Vex" -c "winc w"
+}

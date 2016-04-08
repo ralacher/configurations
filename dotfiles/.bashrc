@@ -70,3 +70,8 @@ fi
 if [ -f .aliases ]; then
     source .aliases
 fi
+
+# Source functions
+if [ -f .functions ]; then
+    source .functions
+fi

@@ -85,8 +85,8 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 export EDITOR=vim
 
 # Load functions
-if [ -f .zsh_functions ]; then
-    source .zsh_functions
+if [ -f .functions ]; then
+    source ~/.functions
 fi
 
 # Load alises
