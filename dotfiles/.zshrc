@@ -5,7 +5,11 @@ export ZSH=/home/rob/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robertlacher"
+if [ -f ~/.oh-my-zsh/themes/robertlacher.zsh-theme]; then
+    ZSH_THEME="robertlacher"
+else
+    ZSH_THEME="robbyrussell"
+fi
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
