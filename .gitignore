@@ -1,1 +1,3 @@
+.gitignore
 dotfiles/.vim/.netrwhist
+dotfiles/bin/*
