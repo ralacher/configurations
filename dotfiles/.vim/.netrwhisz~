@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/rob/windows'
+let g:netrw_dirhist_2='/home/rob/Projects/splunk_cmdb/data'
+let g:netrw_dirhist_3='/home/rob/windows'
+let g:netrw_dirhist_4='/home/rob/.ssh'
+let g:netrw_dirhist_5='/home/rob/bin'
+let g:netrw_dirhist_6='/home/rob'
+let g:netrw_dirhist_7='/home/rob/bin'
