@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/rob/bin'
+let g:netrw_dirhist_2='/home/rob'
+let g:netrw_dirhist_3='/home/rob/bin'
+let g:netrw_dirhist_4='/home/rob'
+let g:netrw_dirhist_5='/home/rob/.ssh'
+let g:netrw_dirhist_6='/media/sf_Fedora'
+let g:netrw_dirhist_7='/home/rob/.ssh'
+let g:netrw_dirhist_8='/home/rob/bin'
