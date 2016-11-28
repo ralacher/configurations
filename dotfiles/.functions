@@ -12,7 +12,7 @@ lss()
 }
 
 # Alias to open vim with file explorer opened in vertical split
-_vim()
-{
-    vi $1 -c "Vex" -c "winc w"
-}
+#_vim()
+#{
+#    vi $1 -c "Vex" -c "winc w"
+#}
